@@ -1,0 +1,18 @@
+appId: com.example.nextron
+productName: disneyTracker
+copyright: Copyright © 2023 Matthew Kotras
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - "dist/**/*"
+  - "node_modules/**/*"
+  - "app/**/*"
+  - "**/*"
+  - "renderer"
+win:
+  target: ["nsis"]
+mac:
+  target: ["dmg", "zip"]
+linux:
+  target: ["deb", "rpm", "zip"]

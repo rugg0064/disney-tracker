@@ -1,0 +1,20 @@
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+.active {
+    opacity: 1;
+}
+
+/* Add more styles as needed */
